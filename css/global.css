@@ -220,7 +220,22 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 {
   align-items: center;
 }
-.menu
-{
-  float: left;
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .col-2{width: 10%;}
+  .col-10{width: 90%;}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .col-2{width: 16.66%;}
+  .col-10{width: 83.33%;}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
 }

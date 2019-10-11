@@ -11,18 +11,18 @@ A lire impérativement avant de commencer quoi que ce soit, ce sont les règles 
 
 ![](img/exemple.gif)
 
-1. Ajouter [bootstrap](https://getbootstrap.com) à votre projet
+* 1. Ajouter [bootstrap](https://getbootstrap.com) à votre projet
 
-2. Centrer les éléments sur la page grace à un container Bootstrap
+* 2. Centrer les éléments sur la page grace à un container Bootstrap
 
-3. Utiliser la [grille](https://getbootstrap.com/docs/4.2/layout/grid/) fluide de Bootstrap pour définir la largeur des éléments :
+* 3. Utiliser la [grille](https://getbootstrap.com/docs/4.2/layout/grid/) fluide de Bootstrap pour définir la largeur des éléments :
 
    - Menu
    - Partie principale
 
-4. Utiliser les classes de grille (col-xs-_ / col-md-_ etc.) pour afficher successivement les albums par 6 sur grand écran, 4 pour les tablettes et 2 en dessous. Vous trouverez des images dans le répertoire design qui montrent ce qui est attendu pour chacun des appareils.
+* 4. Utiliser les classes de grille (col-xs-_ / col-md-_ etc.) pour afficher successivement les albums par 6 sur grand écran, 4 pour les tablettes et 2 en dessous. Vous trouverez des images dans le répertoire design qui montrent ce qui est attendu pour chacun des appareils.
 
-5. Utiliser Bootstrap pour :
+* 5. Utiliser Bootstrap pour :
 
    - Masquer la colonne de gauche sur mobile et sur tablette en mode portrait ([display utilities](https://getbootstrap.com/docs/4.2/utilities/display/))
    - Aligner les liens Collection et History à droite lorsque l'espace disponible devient insuffisant
@@ -30,7 +30,7 @@ A lire impérativement avant de commencer quoi que ce soit, ce sont les règles 
 
 6. Remplacer toutes les tailles de police en pixel par des unités relatives (em ou rem)
 
-7. Régler le viewport pour les mobiles
+* 7. Régler le viewport pour les mobiles
 
 ```html
 <meta

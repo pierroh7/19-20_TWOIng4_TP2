@@ -19,13 +19,13 @@ a {
 }
 
 .wrapper {
-    padding: 25px 0;
+    padding: 1.55em 0;
 }
 
 body > header {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     background: white;
-    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    box-shadow: 0.15em 0.1em 0.5em rgb(200, 200, 200);
 }
 
 header .logo-search form  {
@@ -37,13 +37,13 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 0.8em;
     color: #89949b;
-    padding-top: 5px;
+    padding-top: 0.35em;
 }
 
 main h2 {
-    margin-top: 4px;
+    margin-top: 0.25em;
 }
 
 
@@ -54,13 +54,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.7em;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 nav ul li a {
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: normal;
     color: #828c92;
 }
@@ -70,46 +70,46 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    margin-top: 5px;
+    margin-top: 0.25em;
 }
 
 main header aside img {
     border: 1px solid #dadada;
     border-radius: 50%;
-    box-shadow: 0 0 5px #cecece;
+    box-shadow: 0 0 0.25em #cecece;
 }
 
 nav ul li:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 1.9em;
 }
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: normal;
-    margin: 0 0 8px 0;
+    margin: 0 0 0.5em 0;
 }
 
 .name p {
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 .name p img {
-    margin-left: 12px;
+    margin-left: 0.75em;
 }
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
-    padding: 15px 0px 10px 0px;
-    border-bottom: 1px solid #e1e6e9;
-    margin-bottom: 20px;
+    font-size: 0.75em;
+    padding: 0.95em 0.1em 0.625em 0.1em;
+    border-bottom: 0.15em solid #e1e6e9;
+    margin-bottom: 1.25em;
 }
 
 .stats-links span, .stats-links a {
-    margin-right: 20px;
+    margin-right: 1.25em;
 }
 
 .stats-links a:last-child {
@@ -117,13 +117,13 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 1em;
     font-weight: normal;
     color: #4b5c66;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -135,15 +135,15 @@ header form {
 input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
-    height: 28px;
+    height: 1.75em;
     width: 100%;
-    font-size: 13px;
-    padding: 3px 6px 3px 25px;
-    border: 1px solid #d0dde9;
+    font-size: 0.8em;
+    padding: 0.2em 0.4em 0.2em 1.7em;
+    border: 0.1em solid #d0dde9;
     margin: 0;
-    border-radius: 15px;
-    top: 11px;
-    box-shadow: inset 1px 1px 5px #d5d5d5;
+    border-radius: 0.95em;
+    top: 0.7em;
+    box-shadow: inset 0.1em 0.1em 0.3em #d5d5d5;
 }
 
 input.submit {
@@ -151,14 +151,14 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 0.75em;
     color: #008fd5;
-    border-radius: 5px;
-    border: 1px solid #b8c3c9;
+    border-radius: 0.3em;
+    border: 0.1em solid #b8c3c9;
     cursor: pointer;
-    padding: 7px 10px 7px 30px;
-    box-shadow: 1px 1px #d5d5d5;
-    background: url("../img/icon/station.png") no-repeat 8px;
+    padding: 0.45em 0.625em 0.45em 1.9em;
+    box-shadow: 0.1em 0.1em #d5d5d5;
+    background: url("../img/icon/station.png") no-repeat 0.5em;
     transition: all 0.4s;
 }
 
@@ -170,68 +170,48 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+    font-size: 0.8em;
     color: #89949b;
-    margin: 10px 0;
+    margin: 0.625em 0;
 }
 
 #albums article img {
-    border: 1px solid #cbcbcb;
+    border: 0.1em solid #cbcbcb;
     transition: all 0.3s;
     width: 100%;
 }
 
 #albums article img:hover {
-    box-shadow: 0 0 15px #848484;
+    box-shadow: 0 0 0.95em #848484;
     transform: scale(1.1) rotate(-3deg);
 }
 
 #albums article figcaption {
     color: #4b5c66;
-    margin-top: 6px;
+    margin-top: 0.4em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums article .artist, #albums article .count {
-    margin-top: 4px;
+    margin-top: 0.25em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums .explicit {
     color: #ff5d5d;
-    margin-left: 5px;
+    margin-left: 0.35em;
 }
 
 nav.browse a, nav.music a {
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-left: 1.25em;
+    padding-top: 0.15em;
 }
 
-nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
-nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
-nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
-nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
-nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
-nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
-
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .col-2{width: 10%;}
-  .col-10{width: 90%;}
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .col-2{width: 16.66%;}
-  .col-10{width: 83.33%;}
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-
-}
+nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0.1em; }
+nav a.recent { background: url("../img/icon/recent.png") no-repeat 0.1em; }
+nav a.top { background: url("../img/icon/top.png") no-repeat 0.1em; }
+nav a.new { background: url("../img/icon/new.png") no-repeat 0.1em; }
+nav a.collection { background: url("../img/icon/collection.png") no-repeat 0.1em; }
+nav a.history { background: url("../img/icon/history.png") no-repeat 0.1em; }
